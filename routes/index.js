@@ -13,5 +13,8 @@ router.get('/index.html', function(req, res) {
   res.render('index', { title: 'Main' });
 });
 
+router.get('/post.html', function(req, res) {
+  res.render('post', { title: 'Post' });
+});
 
 module.exports = router;
